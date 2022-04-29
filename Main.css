@@ -1,0 +1,320 @@
+/* Min display */
+html {
+    min-width: 650px;
+}
+
+/* CSS mobile display */
+
+@media screen and (max-width:768px) {
+    /* Edit menu */
+    #menu {
+        background-color: #464e54;
+    }
+    .menu-col {
+        color: white;
+    }
+    #menu ul li:nth-child(1){
+        position: absolute;
+        left: 8%; 
+    }
+    #menu ul li:nth-child(2){
+        position: absolute;
+        left: 24%; 
+    }
+    #menu ul li:nth-child(3){
+        position: absolute;
+        right: 40%;
+    }
+    #menu ul li:nth-child(4){
+        position: absolute;
+        right: 24%;
+    }
+    #menu ul li:nth-child(5){
+        position: absolute;
+        right: 8%;
+    }
+
+    
+    /* edit banner */
+    #banner {
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+    
+    #main-content {
+        padding-top:25px;
+        padding-bottom:25px;
+        /* border: 1px red; */
+    }
+    #banner img {
+        display: none;
+    }
+    #banner h1 {
+        padding-left: 4%;
+        padding-right: 4%;
+        /* border: 1px solid  red; */
+    }
+    #banner p {
+        padding-left: 4%;
+        padding-right: 4%;
+        /* border: 1px solid  red; */
+    }
+    hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        }
+
+
+    /* edit main content */
+    .main-pictures {
+        display:grid;
+        grid-template-columns: 100% ;
+    }
+
+    /* edit footer */
+    .main-footer {
+        display:grid;
+        grid-template-columns: 100% ;
+    }
+    .col2 a {
+        color: #464e54;
+    }
+}
+
+/* CSS tablet display*/
+@media screen and (min-width:769px) and (max-width: 991px) {
+    /* edit menu */  
+    #menu {
+        background-color: #464e54;
+    }
+    .menu-col {
+        color: white;
+    }
+    #menu ul li:nth-child(1){
+        position: absolute;
+        left: 3%; 
+    }
+    #menu ul li:nth-child(2){
+        position: absolute;
+        left: 15%;
+    }
+    #menu ul li:nth-child(3){
+        position: absolute;
+        right: 29%;
+    }
+    #menu ul li:nth-child(4){
+        position: absolute;
+        right: 15%;
+    }
+    #menu ul li:nth-child(5){
+        position: absolute;
+        right: 3%;
+    }
+
+
+    /* edit banner */
+    #banner {
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+    
+    #main-content {
+        padding-top:25px;
+        padding-bottom:25px;
+        /* border: 1px red; */
+    }
+    #banner img {
+        display: none;
+    }
+    #banner h1 {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    #banner p {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        }
+
+    /* edit main content */
+    .main-pictures {
+        /* position: relative; */
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    /* edit footer */
+    .main-footer {
+        display:grid;
+        grid-template-columns: 100% ;
+    }
+}
+
+/* CSS desktop display */
+@media screen and (min-width:992px) {
+    /* edit menu */
+    .menu-col {
+        color: gray;
+    }
+    #menu ul li{
+        display: inline;
+        padding-right: 10px ;
+        list-style: none;
+        /* border: solid 1px red; */
+    }
+    #menu ul li:nth-child(1){
+        position: absolute;
+        left: 50px; 
+    }
+    #menu ul li:nth-child(2){
+        position: absolute;
+        left: 150px;
+    }
+    #menu ul li:nth-child(3){
+        position: absolute;
+        right: 250px;
+    }
+    #menu ul li:nth-child(4){
+        position: absolute;
+        right: 150px;
+    }
+    #menu ul li:nth-child(5){
+        position: absolute;
+        right: 50px;
+    }
+
+    /* edit banner */
+    #banner {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #banner img {
+        width: 100%;
+        height: auto;
+    }
+    #banner h1 {
+        position: absolute;
+        top: 80px;
+        left: 4%;
+        color: white;
+    }
+    #banner p {
+        position: absolute;
+        top: 150px;
+        left: 4%;
+        color: white;
+    }
+    hr {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* edit main content */
+    #main-content {
+        box-sizing: border-box;
+        padding-top: 20px;
+        /* border: 1px red; */
+    }
+    .main-pictures {
+        display:grid;
+        grid-template-columns: 33% 33% 33% ;
+    }
+
+    /* edit footer */
+    .main-footer {
+        display:grid;
+        grid-template-columns: 33% 33% 33% ;
+    }
+}
+
+/* style of page */
+body {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid red;   */
+}
+
+/* style of menu */
+#menu {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+#menu ul li{
+    display: inline;
+    padding-right: 10px ;
+    list-style: none;
+}
+.menu-col {
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    top: 15px;
+    width: 200px;
+}
+
+
+
+/* style of main content */
+#main-content {
+    background-color: #efefef;
+    /* border: 1px red; */
+}
+
+.row2 {
+    position: relative;
+    width: 100%;
+    /* border: 1px solid  red; */
+}
+.row2 div {
+    position: relative;
+    width: 100%;
+    /* border: 1px solid  red; */
+}
+.row3 div{
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    /* border: 1px solid  red; */
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 15px;
+    /* border: 1px red; */
+}
+
+
+
+/* style of footer */
+#main-footer {
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 05%;
+}
+.col2 {
+    margin-bottom: 20px;
+}
+#main-footer a {
+    text-decoration: underline;
+}
